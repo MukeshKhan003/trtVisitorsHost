@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/Home.css';
 import Advertisement from '../inc/Advertisement';
 import muruganHome from '../asset/Murugan.jpg';
 import ammanHome from '../asset/amman.jpg';
@@ -16,8 +17,8 @@ function Home() {
                     <h1 class="text-dark">TIRUTTANI FAMOUS PLACES</h1>
                 </div>
                 <div class="team row">
-                    <div class="col-md-4 colHome col-sm-12 text-center">
-                        <div class="card m-auto homeCard">
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="card">
                             <img src={muruganHome} alt="Member" class="img-fluid  p-4"/>
                             <div class="card-body">
                             <h5 class="card-title">Arulmigu Subramaniya Swamy Temple</h5>
@@ -26,8 +27,8 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 colHome col-sm-12 text-center">
-                        <div class="card m-auto homeCard">
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="card">
                             <img src={ammanHome} alt="Member" class="img-fluid  p-4"/>
                             <div class="card-body">
                                 <h5 class="card-title">18th Centuery Amman Temple</h5>
@@ -36,8 +37,8 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 colHome col-sm-12 text-center">
-                        <div class="card m-auto homeCard">
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="card">
                             <img src={childparkHome} alt="Member" class="img-fluid  p-4"/>
                             <div class="card-body">
                                 <h5 class="card-title">Children's Park</h5>
@@ -50,8 +51,8 @@ function Home() {
             </section>
             <section class="section-2 container-fluid">
                 <div class="team row">
-                    <div class="col-md-4 colHome col-sm-12 text-center">
-                        <div class="card m-auto homeCard">
+                    <div class="col-md-4 justify-content-center col-sm-12 text-center">
+                        <div class="card">
                             <img src={aanchaneyaHome} alt="Member" class="img-fluid  p-4"/>
                             <div class="card-body">
                                 <h5 class="card-title">Sholingar Aanchaneya Temple</h5>
@@ -60,8 +61,8 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 colHome col-sm-12 text-center">
-                        <div class="card m-auto homeCard">
+                    <div class="col-md-4 justify-content-center col-sm-12 text-center">
+                        <div class="card">
                             <img src={kanchanagiriHillsHome} alt="Member" class="img-fluid  p-4"/>
                             <div class="card-body">
                                 <h5 class="card-title">Kaanchanagiri Hills</h5>
@@ -70,8 +71,8 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 colHome col-sm-12 text-center">
-                        <div class="card m-auto homeCard">
+                    <div class="col-md-4 justify-content-center col-sm-12 text-center">
+                        <div class="card">
                             <img src={lordShivaHome} alt="Member" class="img-fluid  p-4"/>
                             <div class="card-body">
                                 <h5 class="card-title">Loard Siva Temple</h5>
@@ -82,6 +83,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+        
         </div>
     )
 }

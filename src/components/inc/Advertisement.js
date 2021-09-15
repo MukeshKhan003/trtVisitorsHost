@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/AdvertiseComp.css'
 import jewelleryAdd from '../asset/Jewelry-Add.jpg';
 import schoolAdd from '../asset/School-add.jpg';
 import dressAdd from '../asset/dress-add.jpg';
@@ -11,9 +12,9 @@ function Advertisement() {
                     <h1 class="text-dark">Advertisement Push</h1>
                     <p class="text-secondary">Just Known <a href="/">Do You want Push Advertisement ?</a> </p>
                 </div>
-                <div class="row team">
-                    <div class="col-md-4 col col-12 text-center">
-                        <div class="card m-auto mr-2 d-inline-block shadow-lg">
+                <div class="team row">
+                    <div class="col-md-4 justify-content-center col col-12 text-center">
+                        <div class="card  mr-2 d-inline-block shadow-lg">
                             <div class="card-img-top">
                                 <img src={jewelleryAdd} alt="Member" class="img-fluid  p-4"/>
                             </div>
@@ -28,8 +29,8 @@ function Advertisement() {
                         </div>
                     </div>
 
-                    <div class="col-md-4 col col-12 text-center">
-                        <div class="card m-auto mr-2 d-inline-block shadow-lg">
+                    <div class="col-md-4 justify-content-center col col-12 text-center">
+                        <div class="card mr-2 d-inline-block shadow-lg">
                             <div class="card-img-top">
                                 <img src={schoolAdd} alt="Member" class="img-fluid  p-4"/>
                             </div>
@@ -43,8 +44,8 @@ function Advertisement() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col col-12 text-center">
-                        <div class="card m-auto mr-2 d-inline-block shadow-lg">
+                    <div class="col-md-4 justify-content-center col col-12 text-center">
+                        <div class="card  mr-2 d-inline-block shadow-lg">
                             <div class="card-img-top">
                                 <img src={dressAdd} alt="Member" class="img-fluid  p-4"/>
                             </div>

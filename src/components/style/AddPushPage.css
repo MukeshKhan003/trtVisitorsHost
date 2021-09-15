@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+:root{
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255,255,255,0.9);
+}
+/************************Advertisement Push Page****************************/
+.sectionAdd{
+    padding: 20vmin 0;
+  }
+  
+  .sectionAdd .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  
+  .sectionAdd .row .col-md-6:last-child{
+    position: relative;
+  }
+  
+  .sectionAdd .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+  }
+  
+  .sectionAdd .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  
+  .sectionAdd .row .col-md-6 .panel p{
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+  }
+  
+  .purchase > h1{
+    padding-top: 15vmin;
+    padding-bottom: 1.5em;
+    font-family: var(--Lobster);
+}
+
+.purchase > p{
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div{
+    margin: 0;
+    padding: 0;
+}
+
+.cards .title{
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing{
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+  /***************************************************************************/

@@ -7,14 +7,14 @@ import dressAdd from '../asset/dress-add.jpg';
 function Advertisement() {
     return (
         <div>
-            <div className = "section-add">
+            <div className = "section-add pb-5">
                 <div class="container text-center">
                     <h1 class="text-dark">Advertisement Push</h1>
                     <p class="text-secondary">Just Known <a href="/">Do You want Push Advertisement ?</a> </p>
                 </div>
-                <div class="team row">
+                <div class="row team m-auto">
                     <div class="col-md-4 justify-content-center col col-12 text-center">
-                        <div class="card  mr-2 d-inline-block shadow-lg">
+                        <div class="card  mr-2 shadow-lg">
                             <div class="card-img-top">
                                 <img src={jewelleryAdd} alt="Member" class="img-fluid  p-4"/>
                             </div>
@@ -30,7 +30,7 @@ function Advertisement() {
                     </div>
 
                     <div class="col-md-4 justify-content-center col col-12 text-center">
-                        <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card mr-2 shadow-lg">
                             <div class="card-img-top">
                                 <img src={schoolAdd} alt="Member" class="img-fluid  p-4"/>
                             </div>
@@ -45,7 +45,7 @@ function Advertisement() {
                         </div>
                     </div>
                     <div class="col-md-4 justify-content-center col col-12 text-center">
-                        <div class="card  mr-2 d-inline-block shadow-lg">
+                        <div class="card  mr-2 shadow-lg">
                             <div class="card-img-top">
                                 <img src={dressAdd} alt="Member" class="img-fluid  p-4"/>
                             </div>

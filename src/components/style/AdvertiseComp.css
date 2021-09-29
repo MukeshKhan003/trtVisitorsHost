@@ -1,34 +1,35 @@
 
-    .section-add .container h1{
-        font-size: 6vmin;
-        padding-top: 14vmin;
-    }
+.section-add .container h1{
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
     
-    .section-add .team{
+    /* .section-add .team{
         padding: 10vmin 4vmin;
-    }
+    } */
+
     
-    .section-add .card{
-        width: 22rem;
-        margin-top: 10vmin;
-    }
+.section-add .card{
+  width: 22rem;
+  margin-top: 10vmin;
+}
     
-    .section-add .card .card-text{
-        padding: 0.5em;
-    }
+.section-add .card .card-text{
+  padding: 0.5em;
+}
     
-    .section-add .card .card-body > a{
-        font-size: 1.5em;
-    }
+.section-add .card .card-body > a{
+  font-size: 1.5em;
+}
     
-    .section-add .carousel-item{
-        padding-left: 3em;
-    }
+.section-add .carousel-item{
+  padding-left: 3em;
+}
     
-    .border-radius{
-        border-radius: 340px;
-        width: 60%;
-    }
+.border-radius{
+  border-radius: 340px;
+  width: 60%;
+}
 
   @media(min-width:320px){
     
@@ -36,7 +37,7 @@
       display: flex;
     }
     .team{
-      display: block;
+      margin: auto;
       width: 100%;
     }
     
@@ -46,8 +47,8 @@
     .col{
       display: flex;
     }
-    .team{
-      display: block;
+    .section-add.team{
+      margin: auto;
       width: 100%;
     }
     
@@ -58,7 +59,7 @@
       display: flex;
       margin-left: 0px;
     }
-    .team{
+    .section-add.team{
       display: block;
       width: 100%;
     }
@@ -69,7 +70,7 @@
       display: flex;
       margin-left: 0px;
     }
-    .team{
+    .section-add.team{
       display: block;
       width: 100%;
     }
@@ -82,7 +83,7 @@
       
     }
     .team{
-      display: block;
+      display: flex;
       width: 100%;
     }
     

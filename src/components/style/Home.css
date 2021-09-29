@@ -1,45 +1,20 @@
-.section-2 .container h1{
-    font-size: 6vmin;
-    padding-top: 12vmin;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.section-2 .team{
-    padding: 6vmin 4vmin;
-    margin-left: 0;
+.sectionHome{
+    background: aliceblue;
 }
-
-.section-2 .card{
-    width: 22rem;
-    margin-top: 10vmin;
-    height: 40rem;
-    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+.big{
+    text-align: center;
 }
-
-.section-2 .card .card-text{
-    padding: 0.5em;
+.cardText {
+    font-size: 4.5vmin;
+    color:  #083eb9;
+    letter-spacing: 2px;
 }
-
-.section-2 .card .card-body > a{
-    font-size: 1.5em;
-}
-  
-
-  @media(min-width:320px){
-    .section-2{
-        display: initial;
-    }
-  }
-  @media(min-width:480px){
-    
-  }
-  @media(min-width:600px){
-    .section-2{
-        display: block;
-    }
-  }
-  @media(min-width:801px){
-    
-  }
-  @media(min-width:1025px){
-    
+.rowOne{
+    padding-bottom: 50px;
+    padding-top: 30px;
 }

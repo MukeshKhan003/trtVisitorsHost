@@ -37,9 +37,9 @@
     width: 100%;
 }
 
-.container .card{
+/* .container .card{
     box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
-}
+} */
 .form-row{
     display: flex;
 }
